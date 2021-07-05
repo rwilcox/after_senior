@@ -11,6 +11,6 @@ This is not a mindmap of "what it takes _to be_ a senior+ developer" but it's a 
 You do _not_ need to know all the list to be a senior+ developer. In some cases they are directly opposed so you likely can't know it all (the person that deeply understands DNS at a foundational level is unlikely to _also_ be a full-stack-mobile-devops "small department in a human/unicorn").
 
 
-![A mindmap of all the potential demands after senior][aftersenior.png]
+![A mindmap of all the potential demands after senior]: aftersenior.png
 
 I may - likely - have some of this wrong! Pull requests and conversation welcome, edit the dot file this  image is generated from!
