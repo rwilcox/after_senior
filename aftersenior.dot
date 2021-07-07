@@ -11,13 +11,14 @@ graph {
 //        subgraph cluster_rd {
           "R&D" -- "project guidance", "Science!", "project foundational", "solo-ish proof of concepts"
 //        }
-        SP -- "System Characteristics / Software Quality Management"
+       "System Characteristics" [label="System Characteristics / Software Quality Management"]
+        SP -- "System Characteristics"
 //        subgraph cluster_systemchar {
-            "System Characteristics"    -- "developer productivity", "system 'ilities", "build tools / pipelines"
+            "System Characteristics"    -- "developer productivity", "system 'ilities", "build tools / pipelines", "force multiplier", "build technical earned interest"
 //        }
         SP -- "Solution Architect"
 //        subgraph cluster_sa {
-           "Solution Architect" -- Diagramming, Coordinating, "Inter-departmental"
+           "Solution Architect" -- Diagramming, Coordinating, "Inter-departmental (?)"
 //       }
 
         SP -- "Small Team Leadership"
@@ -25,6 +26,8 @@ graph {
 
         SP -- "Project Level Leadership"
             -- "project quality characteristics", "technical debt", "technical earned interest", "senior stakeholder collaboration", "project wide new tech adoption/deprecation", "correct implementation for future or project scale"
+        SP -- "ProjectS Level Leadership"
+            -- "stakeholder collaboration across teams of teams", "delegation and overseeing of (Project Level Leadership) traits", "stake in, or increase visibility of, org or enterprise wide patterns", "departmental politics (?)"
 
         SP -- "Subject Matter Expert"
            -- "implementation details"
@@ -32,10 +35,15 @@ graph {
              -- "business" [label="What business restrictions were you implementing?"]
             "implementation details" -- "tech / implementation" [label="why you did it this way?"]
             "implementation details" -- "tech specific"[label="ie Spring Boot gods"]
+        "Subject Matter Expert" -- "Technical Product domain knowledge (?)"
         "Subject Matter Expert" -- "code design / quality"
+        "implementation details" -- "running around unblocking people"
 
         SP -- "Project Management"
           -- "work split up", "everything in moderation, including moderation", "avoid accidents", "MS Project technical timeline coordination"
           "Project Management" -- "Feature <-> Time Coordination"
               "Feature <-> Time Coordination" -- "initial SWAGs", "MS Project technical timeline coordination"
+        TPM [label="Technical Project/Product Manager"]
+        SP -- TPM
+        TPM -- "Project Management", "manage cross-functional touchpoints"
 }
