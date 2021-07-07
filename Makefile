@@ -5,3 +5,7 @@ all: aftersenior.png
 
 clean:
 	rm aftersenior.png
+
+help:
+	$(info make all    - make rendered dotfiles)
+	$(info make clean  - remove generated files)
