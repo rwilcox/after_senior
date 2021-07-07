@@ -1,4 +1,4 @@
-I'm a Principal Engineer, but as I explore the Twitter and tech spheres to see other peers in my role, I'm struct by just how _different_ we all are.
+I'm a Principal Engineer, but as I explore the Twitter and tech spheres to see other peers in my role, I'm struck by just how _different_ we all are.
 
 Of course, this is reflect a bit by the industries inability to stablize around what a Senior developer means. Does it mean a Rails developer with 2 years experience? Does it mean someone with a dozen years experience? _It Depends!_.
 
